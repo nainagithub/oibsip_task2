@@ -1,0 +1,87 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(9, 4, 4);
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    width: 100%;
+
+  }
+
+
+
+  .intr {
+    position: absolute;
+    width: 55px;
+    height: 550px;
+    left:65%;
+    top:0%;
+    padding-bottom: 5%;
+  }
+ 
+  p{
+    color: aliceblue;
+  }
+
+  .main{
+    position: absolute;
+    color:aliceblue;
+    font-size:xx-large;
+    right:50%;
+    top: 23%;
+    font-family: Georgia;
+    padding-bottom:5%;
+  }
+  .four{
+    position:absolute;
+    color: aliceblue;
+    font-size: medium;
+    font-family:'Lucida Sans';
+    right: 14%;
+    text-justify: distribute-all-lines;
+  }
+
+  .img1{
+    position: absolute;
+    width: 390px;
+    height: 400px;
+    right:73%;
+    top:calc(2% + 600px);
+  }
+  .sec{
+    position: absolute;
+    color:aliceblue;
+    left:37%;
+    top:640px;
+    font-size:medium;
+    font-family: 'Segoe UI';
+    text-justify: distribute-all-lines;
+    text-align: justify;
+
+  }
+  
+
+  .img2{
+    position:absolute;
+    width:350px;
+    height:350px;
+    left:55%;
+    top:calc(2% + 500px + 700px);
+    
+  }
+
+  .last{
+    position:absolute;
+    width: 500px;
+    right:60%;
+    top:calc(500px + 704px);
+    color: aliceblue;
+    font-size: larger;
+    font-family:'Segoe UI';
+    text-justify: distribute-all-lines;
+    text-align: justify;
+    
+  }
